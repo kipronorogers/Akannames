@@ -13,7 +13,7 @@ WHAT I LEARNT:
 
 During the implementation of this project, I learnt application and manipulation of bootstrap on a web-page by using 
 flex-box, containers, navigation bar, drop-down menus and tables.
-formulating JavaScript, using arrays, booleans, objects , strings and functions in JS.
+formulating JavaScript, using arrays, booleans, objects , strings , switch-case and functions in JS.
 Use of while-loops, for-loops, understanding data-types and switch-cases.
 
 ---------------------------------------------------------------------------------------------------------------------------
