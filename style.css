@@ -18,15 +18,16 @@ body{
      
    }
    .page-footer{
-     background-color: rgba(196, 28, 28, 0.8); 
+     background-color: rgba(88, 31, 31, 0.8); 
      width: 100%;
    }
-   .overlay{
-     background-color: rgba(165, 64, 64, 0.5);
+   .details{
+     background-color: rgba(15, 19, 14, 0.5);
      margin-left: 25%;
      margin-right: 16%;
-     opacity: 0.9;
-     border-radius: 10px;
+     opacity: 0.8;
+     box-shadow: 0 3px 10px rgba(241, 5, 5, 0.767);
+     box-shadow: ivory;
    }
 /*to be edited
    #get{
@@ -146,6 +147,4 @@ div#menubar1> a:hover{
     color:rgb(8, 8, 8);
     }
 
-    .col-sum{
-      height: 50px;
-    }
+    
