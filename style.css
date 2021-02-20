@@ -145,3 +145,7 @@ div#menubar1> a:hover{
     background: #02a30a;
     color:rgb(8, 8, 8);
     }
+
+    .col-sum{
+      height: 50px;
+    }
