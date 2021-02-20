@@ -10,45 +10,45 @@
   <link href="https://fonts.googleapis.com/css?family=Quattrocento,Playfair+Display+SC,Sorts+Mill+Goudy &display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Gugi|Kalam" rel="stylesheet">
   <link rel="stylesheet" href="/bs5b/css/bootstrap.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body class="container-fluid" style="background-image:url(akan.jpg);">
   <div id="heading"> 
    
-    <h1></h1>
-    <h2 id="get"></h2>
+  <h2 id="get"></h2>
   </div>
   <div class="details">
-      <div class="name-details">
+    <div class="flex-box">
+      <div class="row">
+        <div class="name-details">
           <h2>DAY NAMES & MEANING</h2>
           <h3>Monday</h3>
           Kwabena/Kobi & Abena 
           Meaning- associated with the ocean
-
+      
           <h3>Tuesday</h3>
           Kwabena or Kobi & Abena
           Meaning- associated with the ocean
-
+      
           <h3>Wednesday</h3>
           Born Kwaku or Kweku & Akua
           Meaning -associated with spider/Ananse
-
+      
           <h3>Thursday</h3>
           born Yaw, Yaa 
           Meaning -associated with the earth
-
+      
           <h3>Friday</h3>
           born Kofi, Afia or Afua 
           Meaning -associated with fertility
-
+      
           <h3>Saturday</h3>
           born Kwame, Ama
           Meaning -sassociated with God 
                 
-      </div>                                              
-
-      <div class="container1">
-        <h2>Find out your Akan name and its meaning. Fill the in the details below</h2>
+      </div>
+        <div class="col-sm">
+          <h2>Find out your Akan name and its meaning. Fill the in the details below</h2>
         <form name="myForm" class="form" onsubmit="validate();">
           <div class="form-group">
             <label for="number">Year of Birth:</label>
@@ -75,35 +75,19 @@
               </label>
             </div>
           </div>
-        
-          <br>
+
          <div class="form-group">
            <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
          </div>
         </form>
         <p id="results"> </p>
-
-        <div class="flex-box">
-          <div class="row">
-            <div class="col-sm">
-              <div class="text-center">
-                 <img src="l.jpeg" class="rounded" alt="Isukuti of Ghana">
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="text-center">
-                <img src="flag.png" class="rounded" alt="Isukuti of Ghana">
-             </div>
-            </div>
-            <div class="col-sm">
-              <div class="text-center">
-                <img src="z.jpeg" class="rounded" alt="Isukuti of Ghana">
-             </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+        </div>        
+      </div>
+    </div>                                            
+
+      <div class="container1">
+        
   </div>
 
 
