@@ -82,7 +82,7 @@ Programming Languages Applied:
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-gh-pages:
+gh-pages: https://kipronorogers.github.io/Akannames/
 
 github: https://github.com/kipronorogers/Akannames.git
 
